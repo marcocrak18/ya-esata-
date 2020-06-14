@@ -1,0 +1,136 @@
+<HTML>
+<BODY bgcolor="sky blue">
+<center> 
+<font face="arial" size="30"> MUEBLES AMERICA </font>
+<img src="mueblesamerica.jpg" whith="180"height="180"><br><br>
+<br>
+<a href="motocicletas.html">MOTOCICLETAS</a><br>
+<br>
+<a href="electrodomesticos.html">ELECTRODOMESTICOS</a><br>
+<br>
+<a href="muebles.html">MUEBLES</a><br>
+<br>
+<a href="tabla.htm">TABLA</a><br>
+<BR>
+<BR>
+<fon face="arial" size=6> <I>
+PARA QUEJAS Y SUEGERNCIAS CONTARTACNOS A LOS TELEFONOS <BR>
+351-136-20-40 O TAMBIEN AL 351-512-56-97 </FONT> </I>
+<BR>
+<fon face="arial" size=6> <I>
+<br>
+* Tenemos elavorando con eficacia desde hace aproximadamente 15 años de experencia lo cual nos a ido muy bien con nuentros productos y clientes. <BR> <BR> </FONT> </I>
+
+<html>
+<body>
+<font face="algerian" size="20">MUEBLES</font>
+<table border="o">
+<tr>
+<td><img src="cama.jpg" width="150" height="150"> $8,000</td>
+<td><img src="sala.jpg" width="150" height="150">$10,000</td>
+<td><img src="ropero.jpg" width="150" height="150">$800</td>
+<td><img src="mesa.jpg" wridth="150" height="150">$5,000</td>
+</tr>
+<br>
+
+<a href="INDEX.html">inicio</br>
+
+
+<html>
+<body>
+<font face="algerian" size="20">electrodomesticos</font>
+<table border="o">
+<tr>
+<td><img src="refrijerador.jpg" width="150" height="150"> $8,000</td>
+<td><img src="estereo.jpg" width="150" height="150">$10,000</td>
+<td><img src="licuadora.jpg" width="150" height="150">$800</td>
+<td><img src="estufa.jpg" wridth="150" height="150">$5,000</td>
+</tr>
+<br>
+
+<a href="INDEX.html">inicio</br>
+
+<html>
+<body bgcolor= "RED">
+	<script>
+		function SUMA(){
+			
+			var var1=document.getElementById('PRECIO1').value;
+			var var2=document.getElementById('CANTIDAD1').value;
+			var res=var1*var2;
+			document.getElementById('N1').value=res;
+
+			var var1=document.getElementById('PRECIO2').value;
+			var var2=document.getElementById('CANTIDAD2').value;
+			var res2=var1*var2;
+			document.getElementById('N2').value=res2;
+
+			var var1=document.getElementById('PRECIO3').value;
+			var var2=document.getElementById('CANTIDAD3').value;
+			var res3=var1*var2;
+			document.getElementById('N3').value=res3;
+
+			var var1=document.getElementById('PRECIO4').value;
+			var var2=document.getElementById('CANTIDAD4').value;
+			var res4=var1*var2;
+			document.getElementById('N4').value=res4;
+
+			var var1=document.getElementById('PRECIO5').value;
+			var var2=document.getElementById('CANTIDAD5').value;
+			var res5=var1*var2;
+			document.getElementById('N5').value=res5;
+
+
+			document.getElementById('N6').value=(res+res2+res3+res4+res5);
+
+		
+			
+		}
+	</script>
+<center> 
+<TABLE BORDER="1">
+<TR>
+	<TD ALIGN="CENTER"> ARTICULO </TD>
+	<TD ALIGN="CENTER"> PRECIO </TD>
+	<TD ALIGN="CENTER"> CANTIDAD </TD>
+	<TD ALIGN="CENTER"> TOTAL </TD>
+</TR>
+<TR>  
+	<TD> <INPUT TYPE="TEXT"> </TD>
+	<TD> <INPUT TYPE="TEXT" ID="PRECIO1"> </TD>
+	<TD> <INPUT TYPE="TEXT" ID="CANTIDAD1"> </TD>
+	<TD> <INPUT TYPE="TEXT" ID="N1"> </TD>
+</TR>
+<TR>
+	<TD> <INPUT TYPE="TEXT">  </TD>
+	<TD> <INPUT TYPE="TEXT" ID="PRECIO2"> </TD>
+	<TD> <INPUT TYPE="TEXT" ID="CANTIDAD2"> </TD>
+	<TD>  <INPUT TYPE="TEXT" ID="N2"> </TD>
+</TR>
+<TR>
+	<TD> <INPUT TYPE="TEXT"> </TD>
+	<TD> <INPUT TYPE="TEXT" ID="PRECIO3"> </TD>
+	<TD> <INPUT TYPE="TEXT" ID="CANTIDAD3"> </TD>
+	<TD>  <INPUT TYPE="TEXT" ID="N3"> </TD>
+</TR>
+<TR>
+	<TD> <INPUT TYPE="TEXT"> </TD>
+	<TD> <INPUT TYPE="TEXT" ID="PRECIO4"> </TD>
+	<TD> <INPUT TYPE="TEXT" ID="CANTIDAD4"> </TD>
+	<TD> <INPUT TYPE="TEXT" ID="N4"> </TD>
+</TR>
+<TR>
+	<TD> <INPUT TYPE="TEXT">  </TD>
+	<TD> <INPUT TYPE="TEXT" ID="PRECIO5"> </TD>
+	<TD> <INPUT TYPE="TEXT" ID="CANTIDAD5"> </TD>
+	<TD> <INPUT TYPE="TEXT" ID="N5"> </TD>
+</TR>
+<TR> 
+
+	<TD ALIGN="CENTER" COLSPAN=3> <INPUT TYPE="BUTTON" VALUE="SUMA" onclick="SUMA()">
+	<TD><INPUT TYPE="TEXT" ID="N6"></TD> 
+</TR>
+</table>
+ 
+
+
